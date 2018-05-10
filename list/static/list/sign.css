@@ -1,0 +1,21 @@
+
+form{
+    width: 275px;
+    margin: 154px auto;
+    background: #d9e2f1;
+    border: 1px solid #b5c5d4;
+    padding: 17px;
+    border-radius: 7px;
+}
+form button{
+    margin: auto;
+    display: block;
+}
+.inputField{
+    margin: 4px;
+    height: 20px;
+}
+label{
+    width: 25%;
+    display: inline-block;
+}

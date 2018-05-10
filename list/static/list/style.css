@@ -1,0 +1,37 @@
+ 
+a{
+    color: #0041e0;
+    text-decoration: none;
+}
+
+.mylist{
+    margin: auto;
+    width: 550px;
+    background: #e6eef1;
+    border: 1px solid #ffebeb;
+    border-radius: 5px;
+}
+
+.mylist li{
+    list-style: none;
+    background: #bee0f5;
+    padding: 10px;
+    margin: 10px 9px 10px -28px;
+    border: 1px solid #cbd2ef;
+    border-radius: 3px;
+}
+
+
+.mylist li:hover{
+    background: #d6e4ec;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .mylist{
+        width: 80%;
+        position: relative;
+    }
+}
